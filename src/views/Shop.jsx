@@ -96,7 +96,7 @@ const Shop = () => {
                         onChange={handleSearch}
                         placeholder="Search products..."
                     />
-                    <img src="/src/assets/icons/magnifier.png" className='magnifier' />
+                    <img src="/icons/magnifier.png" className='magnifier' />
                 </div>
             </div>
             <div className="products">
