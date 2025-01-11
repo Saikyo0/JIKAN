@@ -8,8 +8,7 @@ const Home = () => {
   const [watch, setWatch] = useState(null);
 
   useEffect(() => {
-    // Fetch watch data from the Spring Boot backend
-    fetch('/products.json') // Replace with your actual API endpoint
+    fetch('/products.json')
       .then(response => response.json())
       .then(data => setWatch(data[0]))
       .catch(error => console.error('Error fetching watch data:', error));
@@ -74,8 +73,8 @@ const Home = () => {
                       {watch.description}
                     </p>
                     <div className="buttonsContainer">
-                      <a className="learnMore" href={watch.learnMoreUrl}>Learn more</a>
-                      <button className="shopNow" onClick={() => { console.log(watch); navigate('/item', { state: { watch } });  }}>Shop now</button>
+                      <a className="learnMore" href={watch.learnMore}>Learn more</a>
+                      <button className="shopNow" onClick={() => {navigate('/item', { state: { watch } });  }}>Shop now</button>
                     </div>
                   </div>
                   <img
