@@ -1,0 +1,158 @@
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+    align-content: flex-start;
+}
+
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .product-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .product-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  .product-details {
+    display: flex;
+    border: 1px solid;
+    overflow: hidden;
+    padding-top: 20px;
+    width: 35%;
+    height: 800px;
+    margin: 20px 0;
+  }
+  
+  .details {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 10px;
+  }
+  
+  .details h3 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  .details p {
+    height: 40%;
+    text-align: justify;
+    width: 80%;
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #666;
+    font-family: 'Michroma';
+  }
+  
+  .details button {    
+    width: 30%;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .details div{
+    text-align: left;
+  }
+
+  .details div h3 {
+    margin: 0px
+  }
+
+  .watchImages {
+    display: flex;
+  }
+
+  .watchImages img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .watchImages button {    
+    width: 30%;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .brandtab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .brandtab.active,
+  .brandtab:hover {
+    border-bottom-color: #007bff;
+    color: #007bff;
+  }
+  
+  .searchbox {
+    width: 326px;
+    border: 1px solid;
+    border-radius: 9px;
+    height: 29px;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchinput {
+    background: transparent;
+    width: 85%;
+    border: 0px;
+    color: black;
+  }
+
+  .searchinput:focus {
+    outline: none;
+  }
+
+  .magnifier {
+    width: auto;
+    height: 20px;
+  }

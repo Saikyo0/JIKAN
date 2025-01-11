@@ -1,0 +1,113 @@
+/* Agrandir Font Variants */
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir'), url('./fonts/Agrandir-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Grand Heavy'), url('./fonts/Agrandir-GrandHeavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal; /* Consistent with other weights */
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Grand Light'), url('./fonts/Agrandir-GrandLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal; /* Replaced ambiguous "light" */
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Narrow'), url('./fonts/Agrandir-Narrow.otf') format('opentype');
+    font-weight: 400; /* Normal weight for narrow */
+    font-stretch: condensed; /* Proper CSS for "narrow" */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Text Bold'), url('./fonts/Agrandir-TextBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Thin Italic'), url('./fonts/Agrandir-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Tight'), url('./fonts/Agrandir-Tight.otf') format('opentype');
+    font-weight: normal;
+    font-stretch: expanded; /* Proper CSS for "tight" */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Wide Black Italic'), url('./fonts/Agrandir-WideBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: expanded; /* Proper CSS for "wide" */
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: local('Agrandir Wide Light'), url('./fonts/Agrandir-WideLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: expanded; /* Proper CSS for "wide" */
+}
+
+/* Glacial Font Variants */
+@font-face {
+    font-family: 'Glacial';
+    src: local('Glacial Bold'), url('./fonts/GlacialIndifference-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glacial';
+    src: local('Glacial Italic'), url('./fonts/GlacialIndifference-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glacial';
+    src: local('Glacial Regular'), url('./fonts/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Handjet Font */
+@font-face {
+    font-family: 'Handjet';
+    src: local('Handjet'), url('./fonts/Handjet.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Michroma Font */
+@font-face {
+    font-family: 'Michroma';
+    src: local('Michroma'), url('./fonts/Michroma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Norwester Font */
+@font-face {
+    font-family: 'Norwester';
+    src: local('Norwester'), url('./fonts/norwester.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

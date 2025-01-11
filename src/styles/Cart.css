@@ -1,0 +1,134 @@
+/* src/Cart.css */
+
+.cart-container {
+  display: flex;
+  width: 100%;
+  max-width: unset;
+  box-shadow: none;
+}
+
+.cart-items {
+  width: 60%;
+  padding: 20px;
+  padding-left: 68px;
+}
+
+.cart-items h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  height: 13%; /* Maintain consistent height */
+}
+
+.cart-item-image {
+  width: auto;
+  height: 100px;
+}
+
+.cart-items h2 button{
+  width: 11%;
+  font-size: 18px;
+  background: transparent;
+  color: black;
+  border: 1px solid;
+  padding: 10px;
+  margin-left: 37px;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-name {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.cart-item-price {
+  color: #333;
+  margin: 0px;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-quantity button {
+  margin-left: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-item-quantity button:hover {
+  background-color: #0056b3;
+}
+
+.cart-checkout-container {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  border-left: 1px solid #ccc; /* Optional divider */
+}
+
+.cart-checkout-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.cart-summary p {
+  display: flex;
+  justify-content: space-between; /* Align summary items */
+}
+
+.cart-total {
+  font-weight: bold;
+  color: #004aad;
+  font-size: 28px;
+}
+
+.cart-payment-info {
+  text-align: left;
+  width: 60%;
+}
+
+.cart-payment-info input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cart-payment-button {
+  background: #004aad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cart-payment-button:hover {
+  background: #003a7a; /* Darker shade on hover */
+}

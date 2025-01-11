@@ -1,0 +1,63 @@
+.signin h1{
+    font-family: 'Agrandir';
+    font-size: 38px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.signin h1 a {
+    padding-right: 50px;
+}
+
+.loginForm {
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm .email {
+    font-size: 20px;
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid black;
+    padding: 16px;
+    margin-bottom: 29px;
+    color: black;
+}
+
+.loginForm .password {
+    font-size: 20px;
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid black;
+    padding: 16px;
+    color: black;
+}
+
+.forgot {
+    text-align: right;
+    color: #004aad;
+    font-size: 20px;
+    margin: 1px;
+    margin-bottom: 29px;
+}
+
+.loginForm button {
+    background: #004aad;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.ptop {
+    text-align: center;
+    font-size: 20px;
+    margin: 14px;
+    margin-bottom: 29px;
+}
+
+.ptop a {
+    color: #004aad;
+    text-decoration: underline;
+}

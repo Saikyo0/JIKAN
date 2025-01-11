@@ -1,0 +1,112 @@
+.item-container {
+    max-width: 95%;
+    padding-top: 90px;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.item-image {
+    border: 1px solid;
+    height: 84vh;
+    display: flex;
+    padding: 57px;
+    padding-top: 0px;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-image img {    
+    width: auto;
+    height: 64%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.item-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title {
+    font-family: 'Agrandir';
+    margin: 0px;
+}
+
+.item-series,
+.item-collection,
+.item-price,
+.item-seller,
+.item-rating {
+    margin: 0px 0;
+}
+
+.item-series {
+    font-size: 25.3px;
+    font-family: 'Agrandir';
+}
+
+.item-dot {
+    font-size: 63px;
+    width: 10%;
+}
+
+.item-desc {
+    font-size: 28px;
+}
+
+.item-price {
+    font-size: 45.3px;
+    color: #004aad;
+    font-family: 'Agrandir';
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.item-extra {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.buy-button {
+    font-family: 'Agrandir';
+    font-size: 33px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.suggest-button {
+    font-family: 'Agrandir';
+    font-size: 23px;
+    border-radius: 12px;
+    background: #abafb3;
+}
+
+.item-seller,
+.item-rating {
+    font-family: 'Glacial';
+    font-size: 26px;
+}
+
+.item-rating {
+    color: darkslategrey;
+}

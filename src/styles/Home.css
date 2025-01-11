@@ -1,0 +1,288 @@
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.catalogButton {
+  font-family: 'Glacial';
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px; 
+  width: 250px; 
+}
+
+.catalogButton:hover {
+  background-color: #616161;
+  color: #ffffff;
+}
+
+.catalogButton img {
+  width: 33px; 
+  height: auto;
+  object-fit: contain;
+}
+
+.tagline {
+  font-family: 'Glacial';
+  color: #004aad;
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.subTagline {
+  font-family: 'Michroma';
+  font-size: 24px; 
+  margin-top: 10px;
+  color: #555;
+}
+
+.navLinks {
+  font-family: 'Glacial';
+  display: flex;
+  font-size: 24px; 
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navLinks span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navLinks span:hover {
+  color: #004aad;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.homeAbout {
+  text-align: justify;
+  width: 80%;
+  font-size: 26px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+.homeAbout #japAbout {
+  color: #004aad;
+  font-size: 26px;
+  text-align: justify;
+}
+
+.watchContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  height: 350px; 
+  background: #ccc;
+  border-radius: 40px; 
+  justify-content: space-around;
+}
+
+.productInfo {
+  margin: auto 10px;
+  max-width: 52%;
+}
+
+.productInfo h3 {
+  font-family: 'Norwester';
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.productDescription {
+  font-size: 24px; 
+  line-height: 1.6;
+  color: #555;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.buttonsContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.learnMore {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: transparent;
+  color: #333;
+}
+
+.shopNow {
+  padding: 10px 20px;
+  background-color: #004aad;
+  color: white;
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.shopNow:hover {
+  background-color: #616161;
+  color: #ffffff;
+}
+
+.watchImage {
+  width: 400px; 
+  height: auto;
+  object-fit: cover;
+  transform: rotate(26deg);
+  position: relative;
+  top: -100px; 
+  z-index: 99;
+}
+
+.floater {
+  position: relative;
+  top: -100px;
+  left: 150px;
+  z-index: 99;
+  width: 135px;
+  border-radius: 27px;
+  background: white;
+  padding-right: 17px;
+  padding-left: 32px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  text-align: left;
+  color: #004aad;
+  font-size: 24px;
+  box-shadow: 6px 8px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  gap: 80px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.brands img {
+  width: auto;
+  height: 100%;
+  max-height: 50px;
+}
+
+.rightText {
+  text-align: left;
+  padding: 16px;
+}
+
+.rightText h3 {
+  font-size: 30px; 
+  font-weight: normal;
+  color: #004aad;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.rightText p {
+  font-family: 'Michroma';
+  font-size: 27px; 
+  line-height: 1.6;
+  color: #555;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+  padding-left: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+  height: 222px;
+  width: 100%;
+}
+
+.contactAbout {
+  display: flex;
+  background: white;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 0px;
+  height: 100%;
+  border: 1px solid;
+  overflow: hidden;
+  align-items: flex-end;
+  width: 80%;
+}
+
+.transfer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 91%;
+  flex-direction: row;
+  width: 40%;
+  padding-left: 44px;
+  padding-top: 4px;
+  align-content: space-around;
+}
+
+.reddot {
+  background: red;
+  width: 300px;
+  height: 170px;
+  border-radius: 90px;
+  top: 86px;
+  position: relative;
+  margin: 67px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contactlinks {
+  height: 97%;
+  width: 40%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.contactlinks h3 {
+  font-family: 'Agrandir';
+}
+
+.ticon {
+  width: auto;
+  height: 13%;
+  padding: 10px;
+  filter: grayscale(1);
+}
