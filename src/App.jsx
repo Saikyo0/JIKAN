@@ -62,7 +62,7 @@ function App() {
           JIKAN
         </div>
         <div className="weather">
-          <img src="../src/assets/icons/cloud.png" alt="Cloud" />
+          <img src="/icons/cloud.png" alt="Cloud" />
           { weatherData.temperature !== null && weatherData.time !== null ? (
             <h2 className="weather-info">
               {weatherData.temperature} °C in {cities[currentIndex].name} at {
@@ -72,9 +72,9 @@ function App() {
           ) : ( <h2>Loading...</h2> )}
         </div>
         <div className="topNav">
-          <img src="../src/assets/icons/cart.png" alt="Cart" onClick={() => {window.location = "/cart"}}/>
-          <img src="../src/assets/icons/profile.png" alt="Profile" onClick={() => {window.location = checkLogin()}}/>
-          <img src="../src/assets/icons/support.png" alt="Support" onClick={() => {window.location = "/#contactlinks"; }}/>
+          <img src="/icons/cart.png" alt="Cart" onClick={() => {window.location = "/cart"}}/>
+          <img src="/icons/profile.png" alt="Profile" onClick={() => {window.location = checkLogin()}}/>
+          <img src="/icons/support.png" alt="Support" onClick={() => {window.location = "/#contactlinks"; }}/>
         </div>
       </header>
       
