@@ -8,8 +8,7 @@ const Home = () => {
   const [watch, setWatch] = useState(null);
 
   useEffect(() => {
-    // Fetch watch data from the Spring Boot backend
-    fetch('/src/assets/products.json') // Replace with your actual API endpoint
+    fetch('/src/assets/products.json')
       .then(response => response.json())
       .then(data => setWatch(data[0]))
       .catch(error => console.error('Error fetching watch data:', error));
