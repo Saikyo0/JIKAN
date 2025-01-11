@@ -12,7 +12,8 @@
         "description": "Introducing a full-metal addition to the continually evolving 2100 style of timepieces that inherit the legacy of the first-ever G-SHOCK, the DW-5000C.",
         "seller": "Bimonte Sandro",
         "sellerrating": "4.7",
-        "isNew": 1
+        "isNew": 1,
+        "learnMore" : "https://www.casio.com/intl/watches/gshock/product.GM-B2100SD-1A/"
     },
     {
         "id": "GMC-B2100AD-2A",
@@ -27,7 +28,8 @@
         "description": "A robust design that embodies the spirit of adventure.",
         "seller": "John Doe",
         "sellerrating": "4.9",
-        "isNew": 0
+        "isNew": 0,
+        "learnMore" : "https://www.casio.com/intl/watches/gshock/product.GM-B2100SD-1A/"
     },
     {
         "id": "GMC-B2100D-1A",
@@ -42,7 +44,8 @@
         "description": "Stylish and functional, perfect for everyday wear.",
         "seller": "Jane Smith",
         "sellerrating": "4.8",
-        "isNew": 0
+        "isNew": 0,
+        "learnMore" : "https://www.casio.com/intl/watches/gshock/product.GM-B2100SD-1A/"
     },
     {
         "id": "GMW-B5000D-3",
@@ -57,7 +60,8 @@
         "description": "Combining vintage design with modern technology.",
         "seller": "Default Seller",
         "sellerrating": "4.6",
-        "isNew": 1
+        "isNew": 1,
+        "learnMore" : "https://www.casio.com/intl/watches/gshock/product.GM-B2100SD-1A/"
     },
     {
         "id": "GM-B2100AD-5A",
@@ -72,6 +76,7 @@
         "description": "A sleek and stylish watch that is perfect for any occasion.",
         "seller": "Default Seller",
         "sellerrating": "4.9",
-        "isNew": 0
+        "isNew": 0,
+        "learnMore" : "https://www.casio.com/intl/watches/gshock/product.GM-B2100SD-1A/"
     }
 ]
