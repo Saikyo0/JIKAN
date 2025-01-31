@@ -110,7 +110,7 @@ To set up the repository locally, follow the steps mentioned below:
 <br />
 <br />
 <div align="center" style="padding-top: 0.75rem;">
-  <a href="https://your-website.com" target="_blank">
+  <a href="https://jikan-test.netlify.app" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./public/jikan.png">
       <img src="./public/jikan.png" alt="Jikan" height="28"/>
