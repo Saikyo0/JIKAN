@@ -1,150 +1,119 @@
+
 <div align="center">
-  <a href="https://reemErp.com">
-	  <img src="./public/jikan.png" alt="Reem Logo" height="80px" width="80xp"/>
+  <a href="https://jikan-test.netlify.app">
+    <img src="./public/jikan.png" alt="Jikan Logo" height="80px" width="80px"/>
   </a>
-  <h2>Reem</h2>
+  <h2>Jikan</h2>
   <p align="center">
-    <p>Powerful, Intuitive and Open-Source ERP</p>
+    <p>Elegant, Modern, and User-Friendly Watch E-commerce Platform</p>
   </p>
 </div>
 
 <div align="center">
-	<a href="http://jikan-test.netlify.app">Live Demo</a>
+  <a href="http://jikan-test.netlify.app">Live Demo</a>
 </div>
 
-## ERPNext
+## Jikan
 
-100% Open-Source ERP system to help you run your business.
+A 100% Open-Source watch e-commerce platform designed to provide a seamless shopping experience.
 
 ### Motivation
 
-Running a business is a complex task - handling invoices, tracking stock, managing personnel and even more ad-hoc activities. In a market where software is sold separately to manage each of these tasks, ERPNext does all of the above and more, for free.
+The lack of non-physical watch focused shopping sites in certain countries is feeding into the dissapearence of watch culture internationally, Shopping for watches should be an enjoyable and hassle-free experience. Jikan aims to simplify the process by offering a comprehensive platform where users can browse, purchase, and manage their watch collections effortlessly.
 
 ### Key Features
 
-- **Accounting**: All the tools you need to manage cash flow in one place, right from recording transactions to summarizing and analyzing financial reports.
-- **Order Management**: Track inventory levels, replenish stock, and manage sales orders, customers, suppliers, shipments, deliverables, and order fulfillment.
-- **Manufacturing**: Simplifies the production cycle, helps track material consumption, exhibits capacity planning, handles subcontracting, and more!
-- **Asset Management**: From purchase to perishment, IT infrastructure to equipment. Cover every branch of your organization, all in one centralized system.
-- **Projects**: Delivery both internal and external Projects on time, budget and Profitability. Track tasks, timesheets, and issues by project.
+- **Product Catalog**: Browse through a wide range of watches with detailed descriptions, high-quality images, and customer reviews.
+- **Secure Checkout**: Ensure a safe and secure shopping experience with multiple payment options and encrypted transactions.
+- **User Accounts**: Create and manage your personal account to track orders, save favorite items, and receive personalized recommendations.
+- **Suggest Price**: Suggest a price for the item, the fill both your and seller's requirements for a better sale experience.
+- **Admin Control**: Access dedicated admininstrator platform for any whole-site control or running development.
 
 <details open>
 
 <summary>More</summary>
-	<img src="https://erpnext.com/files/v16_bom.png"/>
-	<img src="https://erpnext.com/files/v16_stock_summary.png"/>
-	<img src="https://erpnext.com/files/v16_job_card.png"/>
-	<img src="https://erpnext.com/files/v16_tasks.png"/>
+  <img src="./readme/pic3.png"/>
+  <img src="./readme/pic1.png"/>
+  <img src="./readme/pic2.png"/>
+  <img src="./readme/pic4.png"/>
 </details>
 
 ### Under the Hood
-
-- [**Frappe Framework**](https://github.com/frappe/frappe): A full-stack web application framework written in Python and Javascript. The framework provides a robust foundation for building web applications, including a database abstraction layer, user authentication, and a REST API.
-
-- [**Frappe UI**](https://github.com/frappe/frappe-ui): A Vue-based UI library, to provide a modern user interface. The Frappe UI library provides a variety of components that can be used to build single-page applications on top of the Frappe Framework.
+- [**Vite**](https://vite.dev/guide/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
+- [**React**](https://reactjs.org/): A JavaScript library for building user interfaces, providing a robust foundation for creating dynamic and responsive web applications.
+- [**Next.js**](https://nextjs.org/): A React framework that enables server-side rendering and static site generation, enhancing performance and SEO.
+- [**Tailwind CSS**](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom user interfaces.
 
 ## Production Setup
 
 ### Managed Hosting
 
-You can try [Frappe Cloud](https://frappecloud.com), a simple, user-friendly and sophisticated [open-source](https://github.com/frappe/press) platform to host Frappe applications with peace of mind.
+You can try [Vercel](https://vercel.com), a simple, user-friendly, and sophisticated platform to host your Next.js applications with ease.
 
-It takes care of installation, setup, upgrades, monitoring, maintenance and support of your Frappe deployments. It is a fully featured developer platform with an ability to manage and control multiple Frappe deployments.
+It takes care of deployment, scaling, and performance optimization, allowing you to focus on building your application.
 
 <div>
-	<a href="https://erpnext-demo.frappe.cloud/app/home" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
-			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
-		</picture>
-	</a>
+  <a href="https://vercel.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://vercel.com/logo-dark.png">
+      <img src="https://vercel.com/logo-light.png" alt="Deploy on Vercel" height="28" />
+    </picture>
+  </a>
 </div>
-
-
 
 ### Self-Hosted
 #### Docker
 
-Prerequisites: docker, docker-compose, git. Refer [Docker Documentation](https://docs.docker.com) for more details on Docker setup.
+Prerequisites: docker, docker-compose, git. Refer to [Docker Documentation](https://docs.docker.com) for more details on Docker setup.
 
-Run following commands:
+Run the following commands:
 
+```bash
+git clone https://github.com/your-repo/jikan
+cd jikan
+docker-compose up -d
 ```
-git clone https://github.com/frappe/frappe_docker
-cd frappe_docker
-docker compose -f pwd.yml up -d
-```
 
-After a couple of minutes, site should be accessible on your localhost port: 8080. Use below default login credentials to access the site.
-- Username: Administrator
-- Password: admin
-
-See [Frappe Docker](https://github.com/frappe/frappe_docker?tab=readme-ov-file#to-run-on-arm64-architecture-follow-this-instructions) for ARM based docker setup.
-
+After a couple of minutes, the site should be accessible on your localhost port: 3000.
 
 ## Development Setup
+
 ### Manual Install
 
-The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
+To set up the repository locally, follow the steps mentioned below:
 
-New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
-
-
-### Local
-
-To setup the repository locally follow the steps mentioned below:
-
-1. Setup bench by following the [Installation Steps](https://frappeframework.com/docs/user/en/installation) and start the server
-   ```
-   bench start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/jikan
+   cd jikan
    ```
 
-2. In a separate terminal window, run the following commands:
-   ```
-   # Create a new site
-   bench new-site erpnext.dev
-   
-   # Map your site to localhost
-   bench --site erpnext.dev add-to-hosts
-   ```
-	
-3. Get the ERPNext app and install it
-   ```
-   # Get the ERPNext app
-   bench get-app https://github.com/frappe/erpnext
-   
-   # Install the app
-   bench --site erpnext.dev install-app erpnext
+2. Install dependencies:
+   ```bash
+   npm install
    ```
 
-4. Open the URL `http://erpnext.dev:8000/app` in your browser, you should see the app running
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Learning and community
+4. Open the URL `http://localhost:3000` in your browser, and you should see the application running.
 
-1. [Frappe School](https://frappe.school) - Learn Frappe Framework and ERPNext from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.erpnext.com/) - Extensive documentation for ERPNext.
-3. [Discussion Forum](https://discuss.erpnext.com/) - Engage with community of ERPNext users and service providers.
-4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
+## Learning and Community
 
-
-## Contributing
-
-1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://erpnext.com/security)
-1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-
-
-## Logo and Trademark Policy
-
-Please read our [Logo and Trademark Policy](TRADEMARK_POLICY.md).
+1. [Next.js Documentation](https://nextjs.org/docs) - Learn everything about Next.js from the official documentation.
+2. [React Documentation](https://react.dev/learn) - Extensive documentation for React.
+3. [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Comprehensive guide to using Tailwind CSS.
+4. [Next.js GitHub Discussions](https://github.com/vercel/next.js/discussions) - Engage with the community of Next.js users and developers.
 
 <br />
 <br />
 <div align="center" style="padding-top: 0.75rem;">
-	<a href="https://frappe.io" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
-		</picture>
-	</a>
+  <a href="https://your-website.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./public/jikan.png">
+      <img src="./public/jikan.png" alt="Jikan" height="28"/>
+    </picture>
+  </a>
 </div>
